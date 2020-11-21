@@ -1,0 +1,244 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #E1AAA4;
+  color: #fff;
+  text-align: center;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.gray-section {
+  background-color: #808080;
+  background-color: #e5c0ca;
+  background-color: #e9baa9;
+  background-color: #B8B8B8;
+  background-color:#D8D8D8;
+  padding: 10% 5%;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  padding: 15% 0% 0%;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.contact-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Sacramento', cursive;
+  padding: 10% 0% 2%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #c09776;
+}
+.nav-link:hover {
+    color: #e3bca4;
+    color: #fbf3eb;
+}
+
+/* Title Section */
+
+#title {
+    background-image: url("images/sunset.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20%;
+}
+
+.logo {
+    width: 50%;
+    position: relative;
+}
+
+#titleflowers {
+    background-image: url("images/darkflower1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20% 0%;
+}
+
+#titlelandscapes{
+    background-image: url("images/bluesky.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20% 0%;
+}
+
+#titleportraits{
+    background-image: url("images/houston.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20% 0%;
+}
+
+#titlecities{
+    background-image: url("images/india5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20% 0%;
+}
+
+#titlecontact{
+    background-image: url("images/ericapic2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0% 7% 20% 0%;
+}
+
+/* Feature Section */
+#features{
+  position: relative;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  padding: 2% 0% 5%;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature{
+  color:#e9be99;
+  padding-bottom: 1rem;
+}
+
+.feature:hover{
+  color: #E1AAA4;
+}
+
+.feature-image{
+  width:450px;
+  height:450px;
+  object-fit:cover;
+}
+
+.feature-image:hoover {
+  filter: grayscale(100%);
+}
+
+/* Photo Section */
+.photo {
+  height:800px;
+  width: 100%;
+  filter: grayscale(10%);
+  object-fit:cover;
+
+}
+
+/* Contact Me */
+#contact {
+   text-align: center;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 0% 0% 10%;
+}
+
+/* Footer Section   */
+
+.social-icon {
+  padding: 0 1% 2%;
+}
+
+#footer {
+   text-align: center;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+
+.image{
+    float: center;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5% 0%;
+}
+
+.form-group {
+  width: 50%;
+  position: center;
+  padding: 1% 10%;
+  text-align: center;
+  position: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+   display: inline-block;
+}
+
+.button
+{
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+}
