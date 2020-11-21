@@ -80,6 +80,17 @@ p{
     color: #fbf3eb;
 }
 
+.nav-linkpages {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav-linkpages:hover {
+  color: #c09776;
+}
+
 /* Title Section */
 
 #title {
